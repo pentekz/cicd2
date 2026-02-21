@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: argo-test-app1
-          image: pentekz/argo-test-app1:{{ .Values.env.APP_VERSION }}
+          image: zoltanpentek/argo-test-app1:{{ .Values.env.APP_VERSION }}
           ports:
             - name: http
               containerPort: 5000
